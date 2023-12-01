@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Environment
+metadata:
+  name: "env-default"
+  description: "env-default"
+  annotations:
+    github.com/project-slug: veecode-platform/env-default
+    backstage.io/techdocs-ref: dir:.
+  environment: {}
+spec:
+  type: service
+  lifecycle: development
+  owner: "group:default/admin"
